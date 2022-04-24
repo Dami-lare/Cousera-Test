@@ -215,6 +215,8 @@ function buildCategoriesViewHtml(categories,
 
 
 
+
+
 // Builds HTML for the single category page based on the data
 // from the server
 function buildAndShowMenuItemsHTML (categoryMenuItems) {
