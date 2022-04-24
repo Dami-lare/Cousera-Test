@@ -149,9 +149,10 @@ dc.loadMenuCategories = function () {
   $ajaxUtils.sendGetRequest(
     allCategoriesUrl,
     buildAndShowCategoriesHTML);
-};
+  };
 
 
+  
 // Load the menu items view
 // 'categoryShort' is a short_name for a category
 dc.loadMenuItems = function (categoryShort) {
@@ -346,5 +347,3 @@ function insertItemPortionName(html,
 global.$dc = dc;
 
 })(window);
-
-
